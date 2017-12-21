@@ -1,0 +1,143 @@
+nav {
+  background: black;
+  width: 100%;
+  height: 100px;
+  padding-bottom: 20px;
+  border-bottom: 5px solid yellow;
+}
+
+nav .bold {
+   font-weight: 700;
+   color: white;
+   display: inline-block;
+   text-transform: uppercase;
+   padding-right: 15px;
+}
+
+ul .normal {
+  color: white;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+h1.logo {
+  color: yellow;
+  display: inline-block;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: right;
+  margin-right: 20px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+div.two-brains {
+  width: 100%;
+  height: 70px;
+  background: grey;
+  font-style: italic;
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  width: calc(100% - 10px);
+  border: 5px solid grey;
+}
+
+
+.meet-your-match {
+  width: 100;
+  position: absolute;
+  border: 1px solid black;
+  width: 30%;
+  position: absolute;
+  right: 10%;
+  border: 1px solid black;
+  top: 10%;
+  bottom: 10%;
+  background: white;
+  opacity: 0.7;
+}
+
+h3 {
+  padding-left: 10%;
+  font-size: 3rem;
+}
+
+.image {
+  position: relative;
+}
+
+.image p {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.4rem;
+}
+
+button.yellow {
+  width: 80%;
+  height: 50px;
+  margin-left: 35px;
+  background: yellow;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+section.left {
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-right: grey solid 1px;
+}
+
+section.center {
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-right: grey solid 1px;
+}
+
+section.right {
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+section button {
+  background-color: grey;
+  width: 70%;
+  height: 50px;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-top: 7px;
+}
